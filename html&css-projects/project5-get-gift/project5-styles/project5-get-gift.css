@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top, #2dff8c, #281eff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  width: 825px;
+  height: 306px;
+  position: relative;
+  left: 308px;
+  top: 200px;
+  text-align: center;
+}
+#txt h1 {
+  font: normal normal normal 120px/173px Satisfy;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 0px 36px #00000087;
+  margin-bottom: 10px;
+}
+#txt h3 {
+  font: normal normal normal 32px/38px Varela Round;
+  letter-spacing: 0px;
+  color: #ffffff;
+  direction: rtl;
+  margin-bottom: 14px;
+}
+#txt p {
+  font: normal normal normal 12px/15px Varela Round;
+  letter-spacing: 0px;
+  color: #f9f9f9;
+  opacity: 1;
+  direction: rtl;
+  margin-bottom: 30px;
+}
+#form {
+  display: flex;
+  direction: rtl;
+  gap: 27px;
+}
+#contact {
+  font: normal normal normal 12px/15px Varela Round;
+  letter-spacing: 0px;
+  color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+#contact input {
+  width: 314px;
+  height: 38px;
+  background: #f6f6f624;
+  border: 2px solid #ffffff;
+}
+#form [type="submit"] {
+  width: 155px;
+  height: 38px;
+  background: #ffffff;
+  font: normal normal normal 12px/15px Varela Round;
+  letter-spacing: 0px;
+  color: #1c1c1c;
+  border: none;
+  position: relative;
+  top: 14px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 327px;
+    height: 466px;
+    left: 19px;
+    top: 80px;
+  }
+  #txt h1 {
+    font: normal normal normal 60px/86px Satisfy;
+    margin-bottom: 40px;
+  }
+  #txt h3 {
+    font: normal normal normal 18px/22px Varela Round;
+  }
+  #txt p {
+    font: normal normal normal 16px/20px Varela Round;
+    margin-bottom: 150px;
+  }
+  #form {
+    flex-direction: column;
+    padding-right: 12px;
+    gap: 16px;
+  }
+  #contact {
+    font: normal normal normal 11px/13px Varela Round;
+  }
+  #contact input {
+    width: 302px;
+    height: 36px;
+  }
+  #form [type="submit"] {
+    width: 300px;
+    height: 33px;
+    font: normal normal normal 11px/13px Varela Round;
+    color: #2823fd;
+    top: 9px;
+  }
+}

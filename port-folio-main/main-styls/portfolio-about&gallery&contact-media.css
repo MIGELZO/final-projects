@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px) {
+  #about {
+    height: 88rem;
+  }
+  #about h3 {
+    max-width: 30ch;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  #about img {
+    height: 225px;
+    margin: 12px 0px;
+  }
+  #cv-btn {
+    font-size: 12px;
+  }
+  #module-line {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #module-line-box {
+    line-height: 2rem;
+    font-size: 12px;
+  }
+  .container-gallery {
+    width: 60%;
+    padding-top: 0.5em;
+  }
+  .project-txt {
+    margin-top: 0.5em;
+  }
+  #contact {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    gap: 5px;
+    flex-direction: column;
+  }
+  #contact img {
+    height: 175px;
+    left: -2px;
+  }
+  .costume-form {
+    margin-bottom: 15px;
+  }
+  .costume-form input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.back-g {
+  width: 100%;
+  height: 443px;
+  background: url(../project4-assets/main-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-container {
+  position: absolute;
+  direction: rtl;
+  width: 426px;
+  height: 483px;
+  background: #1a1a1ad4;
+  top: 118px;
+  right: 222px;
+  padding: 57px;
+}
+.form-container h1 {
+  font: normal normal 900 27px/40px Heebo;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.form-container p {
+  font: normal normal normal 15px/22px Heebo;
+  letter-spacing: 0px;
+  color: #f9f9f9;
+}
+#form-control {
+  margin-top: 33px;
+  font: normal normal bold 12px/18px Heebo;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  border: none;
+}
+#contact input {
+  width: 313px;
+  height: 38px;
+}
+input[type="submit"] {
+  width: 125px;
+  height: 38px;
+  background: #d31c75;
+  font: normal normal bold 17px/23px Heebo;
+  letter-spacing: 0.33px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .back-g {
+    display: none;
+  }
+  .back-s-small {
+    background: url(../project4-assets/small-background.png);
+    height: 209px;
+    background-size: contain;
+  }
+  .form-container {
+    width: 298px;
+    height: 440px;
+    top: 89px;
+    right: 34px;
+    padding: 42px 35px;
+  }
+  .form-container h1 {
+    font: normal normal 900 25px/30px Heebo;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .form-container p {
+    font: normal normal normal 15px/22px Heebo;
+    text-align: center;
+  }
+  #form-control {
+    font: normal normal bold 14px/21px Heebo;
+    margin-top: 45px;
+  }
+  #contact {
+    margin-bottom: 16px;
+  }
+  #contact input {
+    width: 229px;
+    height: 27px;
+    border: 1px solid #d31c75;
+  }
+  input[type="submit"] {
+    width: 76px;
+    height: 33px;
+    font: normal normal bold 15px/20px Heebo;
+  }
+}

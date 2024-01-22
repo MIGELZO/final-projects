@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main-styls/portfolio-head&intro&footer.css" />
+    <link
+      rel="stylesheet"
+      href="main-styls/portfolio-about&gallery&contact.css"
+    />
+    <link rel="stylesheet" href="main-styls/portfolio-side-menu.css" />
+    <link
+      rel="stylesheet"
+      href="main-styls/portfolio-about&gallery&contact-media.css"
+    />
+    <link
+      rel="stylesheet"
+      href="main-styls/portfolio-head&intro&footer-media.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="main-assets/logo-rose-gold.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Daniel's PortFolio main</title>
+  </head>
+  <body>
+    <!--Full body structure-->
+    <header class="m-head">
+      <div class="head-box">
+        <div>
+          <img
+            id="m-logo"
+            src="main-assets/logo-blue-left-down.png"
+            alt="logoOfDaniel"
+          />
+          <!--Side menu structure-->
+          <input type="checkbox" id="check" />
+          <label for="check">
+            <i class="fa-solid fa-bars" id="sid-btn"></i>
+            <i class="fa-solid fa-xmark" id="sid-cancel"></i>
+          </label>
+          <div class="sid-menu">
+            <header>
+              <h3 id="sid-m-head">Navigation</h3>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <a href="#main"
+                  ><span id="m-symb">< /<span id="m-txt">Main</span> ></span></a
+                >
+              </li>
+              <li>
+                <a href="#about"
+                  ><span id="m-symb"
+                    >< /<span id="m-txt">About</span> ></span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#projects"
+                  ><span id="m-symb"
+                    >< /<span id="m-txt">Projects</span> ></span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  ><span id="m-symb"
+                    >< /<span id="m-txt">Contact</span> ></span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-box">
+          <ul class="menu">
+            <li>
+              <a href="#main"
+                ><span id="m-symb">< /<span id="m-txt">Main</span> ></span></a
+              >
+            </li>
+            <li>
+              <a href="#about"
+                ><span id="m-symb">< /<span id="m-txt">About</span> ></span></a
+              >
+            </li>
+            <li>
+              <a href="#projects"
+                ><span id="m-symb"
+                  >< /<span id="m-txt">Projects</span> ></span
+                ></a
+              >
+            </li>
+            <li>
+              <a href="#contact"
+                ><span id="m-symb"
+                  >< /<span id="m-txt">Contact</span> ></span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--For Intro and about-->
+      <section id="main">
+        <div id="intro">
+          <div id="txt-box">
+            <h1>Hi, My name is Daniel Amzaleg!</h1>
+            <p>
+              A former pastry chef with a passion for details who always dreamed
+              of developing softwares
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="technologies">
+        <div id="div-html">
+          <img
+            id="img-html"
+            src="main-assets/img-html.png"
+            alt="icon of HTML5"
+          />
+        </div>
+        <div id="div-css">
+          <img id="img-css" src="main-assets/img-css.png" alt="icon of CSS" />
+        </div>
+      </section>
+      <section id="about">
+        <img src="main-assets/my-img.JPG" alt="" />
+        <h2>About Me</h2>
+        <h3>
+          My name is Daniel, I am 30 years old and happily married.
+          <br />
+          I worked in chef kitchens throughout Israel for 8 and a half years. I
+          was a sous chef several times and even managed kitchens myself.
+          <br />
+          In 2017, I began studying to be a pastry chef, including an internship
+          in France. After that, I opened my first business.
+          <br />
+          I believe that there is no such thing as a career for life. I am
+          always striving to learn new things in the most professional way and
+          to expand my knowledge in as many fields as possible.
+          <br />
+          Knowledge is power! Power to broaden our horizons and show ourselves
+          how much we are worth!
+          <br />
+          Currently, I have been working for two years at a software house for
+          secure credit solutions as a technical support for developers.
+          <br />
+          Soon, I will be a full-stack programmer with a lot of desire to show
+          my talent for troubleshooting and finding effective solutions in the
+          technical field and in the digital world.
+          <br />
+          The future is going digital. Let me take part in your progress towards
+          a more developed future!
+        </h3>
+        <a id="cv-btn" href="#" download="#">download CV</a>
+      </section>
+      <section id="module-line">
+        <div id="module-line-box">
+          <h2>Selected projects for HTML & CSS</h2>
+          <h3>לפניכם מס' פרוייקטים אשר ממחישים יכולות שונות</h3>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="container-gallery">
+          <div class="card">
+            <div class="gallery-img">
+              <img src="main-assets/projects-gallery/cofee-img.png" alt="" />
+            </div>
+            <div class="project-box">
+              <div class="project-txt">
+                <h2>Cofee</h2>
+                <h3>now its time</h3>
+              </div>
+              <div class="project-tech">
+                <img src="main-assets/img-html.png" alt="" />
+                <img src="main-assets/img-css.png" alt="" />
+              </div>
+              <div class="project-btn">
+                <a
+                  href="../html&css-projects/project1-cofee/presentation1-coffe.html"
+                  >see more <i class="fa-solid fa-angles-right fa-sm"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="gallery-img">
+              <img src="main-assets/projects-gallery/world-img.png" alt="" />
+            </div>
+            <div class="project-box">
+              <div class="project-txt">
+                <h2>World</h2>
+                <h3>now its time</h3>
+              </div>
+              <div class="project-tech">
+                <img src="main-assets/img-html.png" alt="" />
+                <img src="main-assets/img-css.png" alt="" />
+              </div>
+              <div class="project-btn">
+                <a
+                  href="../html&css-projects/project2-world/presentation2-world.html"
+                  >see more <i class="fa-solid fa-angles-right fa-sm"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="gallery-img">
+              <img src="main-assets/projects-gallery/out-box-img.png" alt="" />
+            </div>
+            <div class="project-box">
+              <div class="project-txt">
+                <h2>Out the box</h2>
+                <h3>now its time</h3>
+              </div>
+              <div class="project-tech">
+                <img src="main-assets/img-html.png" alt="" />
+                <img src="main-assets/img-css.png" alt="" />
+              </div>
+              <div class="project-btn">
+                <a
+                  href="../html&css-projects/project3-out-box/presentation3-out-box.html"
+                  >see more <i class="fa-solid fa-angles-right fa-sm"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="gallery-img">
+              <img
+                src="main-assets/projects-gallery/pink-page-img.png"
+                alt=""
+              />
+            </div>
+            <div class="project-box">
+              <div class="project-txt">
+                <h2>Pink page</h2>
+                <h3>now its time</h3>
+              </div>
+              <div class="project-tech">
+                <img src="main-assets/img-html.png" alt="" />
+                <img src="main-assets/img-css.png" alt="" />
+              </div>
+              <div class="project-btn">
+                <a
+                  href="../html&css-projects/project4-pink-page/presentation4-pink-page.html"
+                  >see more <i class="fa-solid fa-angles-right fa-sm"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="gallery-img">
+              <img src="main-assets/projects-gallery/get-gift-img.png" alt="" />
+            </div>
+            <div class="project-box">
+              <div class="project-txt">
+                <h2>Get gift</h2>
+                <h3>now its time</h3>
+              </div>
+              <div class="project-tech">
+                <img src="main-assets/img-html.png" alt="" />
+                <img src="main-assets/img-css.png" alt="" />
+              </div>
+              <div class="project-btn">
+                <a
+                  href="../html&css-projects/project5-get-gift/presentation5-get-gift.html"
+                  >see more <i class="fa-solid fa-angles-right fa-sm"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="gallery-img">
+              <img
+                src="main-assets/projects-gallery/blue-form-img.png"
+                alt=""
+              />
+            </div>
+            <div class="project-box">
+              <div class="project-txt">
+                <h2>Blue form</h2>
+                <h3>now its time</h3>
+              </div>
+              <div class="project-tech">
+                <img src="main-assets/img-html.png" alt="" />
+                <img src="main-assets/img-css.png" alt="" />
+              </div>
+              <div class="project-btn">
+                <a
+                  href="../html&css-projects/project6-blue-form/presentation6-blue-form.html"
+                  >see more <i class="fa-solid fa-angles-right fa-sm"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <img src="main-assets/contact-img.png" alt="" />
+        <div id="contact-data">
+          <h2>Lets Talk</h2>
+          <h3>Leave your details below and I will contact you</h3>
+          <div id="detail-form">
+            <form id="form">
+              <div class="costume-form">
+                <label for="full-name">Full Name</label>
+                <input type="text" placeholder="Full Name" />
+              </div>
+              <div class="costume-form">
+                <label for="email">Email Adress</label>
+                <input type="email" placeholder="Email Adress" />
+              </div>
+              <div class="costume-form">
+                <label for="phone-number">Phone Number</label>
+                <input type="number" placeholder="Phone Number" />
+              </div>
+              <div class="costume-form">
+                <label for="message-content">Message Content</label>
+                <input
+                  id="message-content"
+                  type="text"
+                  placeholder="Your Message Content"
+                />
+              </div>
+              <div id="contact-btn-box">
+                <input type="submit" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="icons">
+        <div>
+          <i class="fa-solid fa-location-dot fa-2xl"></i>
+          <p>israel</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-at fa-2xl"></i>
+          <p>daniel.amzaleg25@gmail.com</p>
+        </div>
+        <div>
+          <i class="fa-brands fa-whatsapp fa-2xl"></i>
+          <p>+972-548-105-258</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone fa-2xl"></i>
+          <p>+972-548-105-258</p>
+        </div>
+        <div>
+          <i class="fa-brands fa-linkedin fa-2xl"></i>
+          <p>Daniel Danieli</p>
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook-f fa-2xl"></i>
+          <p>Daniel Amzaleg</p>
+        </div>
+      </div>
+      <hr />
+      <br />
+      <div id="copyright">
+        <p>all rights reservd <i class="fa-regular fa-copyright"></i></p>
+        <p>Daniel Amzaleg</p>
+      </div>
+    </footer>
+    <!--Side menu structure-->
+    <!------------------------------לבדוק-------------------------------->
+    <!-- <input type="checkbox" id="check" />
+    <label for="check">
+      <i class="fa-solid fa-bars" id="sid-btn"></i>
+      <i class="fa-solid fa-xmark" id="sid-cancel"></i>
+    </label> -->
+    <!-- <div class="sid-menu">
+      <header>
+        <h3 id="sid-m-head">Navigation</h3>
+        <hr />
+      </header>
+      <ul>
+        <li>
+          <a href="#main"
+            ><span id="m-symb">< /<span id="m-txt">Main</span> ></span></a
+          >
+        </li>
+        <li>
+          <a href="#about"
+            ><span id="m-symb">< /<span id="m-txt">About</span> ></span></a
+          >
+        </li>
+        <li>
+          <a href="#projects"
+            ><span id="m-symb">< /<span id="m-txt">Projects</span> ></span></a
+          >
+        </li>
+        <li>
+          <a href="#contact"
+            ><span id="m-symb">< /<span id="m-txt">Contact</span> ></span></a
+          >
+        </li>
+      </ul>
+    </div> -->
+    <!-------------------------------------------------------------->
+  </body>
+</html>

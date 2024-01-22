@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=DotGothic16&family=Poppins:wght@800&family=Rubik+Doodle+Shadow&family=Shadows+Into+Light&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  flex-wrap: wrap;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+body {
+  background: url(../main-assets/main-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.m-head {
+  box-shadow: 0px -3px 20px rgba(86, 237, 233, 211);
+  position: sticky;
+  top: 0px;
+  background: linear-gradient(
+    to right,
+    rgba(15, 13, 22, 255),
+    rgba(26, 21, 39, 255),
+    rgba(15, 13, 22, 255)
+  );
+  z-index: 1;
+}
+.head-box {
+  display: flex;
+  justify-content: space-between;
+}
+#m-logo {
+  height: 80px;
+  border-radius: 10px;
+  margin: 5px;
+  position: relative;
+  left: 25px;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  position: relative;
+  right: 10%;
+  top: 10%;
+}
+#m-symb,
+#m-txt {
+  color: grey;
+  font-size: 15px;
+  font-family: "dosis";
+  font-weight: bold;
+  transition: 0.5s;
+}
+#m-txt:hover {
+  color: rgb(192, 192, 192);
+  font-size: 19px;
+  transition: 0.5s;
+}
+#m-txt:active {
+  color: #fff;
+  font-size: 19px;
+  transition: 0.5s;
+}
+#intro {
+  background-image: url(../main-assets/space.png);
+  margin: 100px auto;
+  height: 10em;
+  width: 80%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px rgb(0, 0, 0);
+  font-size: 40px;
+}
+#txt-box {
+  position: relative;
+  top: 5vh;
+  left: 3vw;
+  width: 90%;
+}
+#intro h1 {
+  font-size: 1em;
+  font-weight: bolder;
+  color: rgb(193, 151, 219);
+  font-family: "shadows into light";
+  letter-spacing: 1px;
+  line-height: 4em;
+}
+#intro p {
+  font-size: 0.6em;
+  font-weight: bolder;
+  color: rgb(193, 151, 219);
+  font-family: "shadows into light";
+  letter-spacing: 1px;
+  margin-left: 1em;
+}
+.technologies {
+  height: 150px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  gap: 60px;
+  justify-content: center;
+}
+.technologies div {
+  background: linear-gradient(
+    to right,
+    rgba(15, 13, 22, 255),
+    rgba(26, 21, 39, 255),
+    rgba(15, 13, 22, 255)
+  );
+  box-shadow: 0px 0px 20px rgba(86, 237, 233, 211);
+  border-radius: 25px;
+  transition: all 0.5s ease;
+  height: 120px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.technologies img {
+  height: 50%;
+  width: 50%;
+  margin: 30px;
+  transition: all 0.5s ease;
+}
+#div-html:hover {
+  height: 150px;
+  width: 140px;
+}
+#div-css:hover {
+  height: 150px;
+  width: 140px;
+}
+footer {
+  justify-content: space-between;
+  padding: 1%;
+  background: linear-gradient(
+    to right,
+    rgba(15, 13, 22, 255),
+    rgba(26, 21, 39, 255),
+    rgba(15, 13, 22, 255)
+  );
+  box-shadow: 0px 3px 20px rgba(86, 237, 233, 211);
+  color: #fff;
+  font-size: 10px;
+  font-family: "dosis";
+  margin-top: 20px;
+}
+#icons {
+  text-align: center;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+#icons i {
+  height: 20px;
+  color: rgba(86, 237, 233, 211);
+}
+#icons p {
+  font-size: 15px;
+}
+#copyright {
+  display: flex;
+  justify-content: space-between;
+}
+#copyright p {
+  font-size: 15px;
+}
+@media (width < 850px) {
+  .menu-box {
+    display: none;
+  }
+}

@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e5eeff;
+  padding: 224px 254px;
+  display: flex;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#intro {
+  direction: rtl;
+  background: #020253;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 2em;
+  grid-area: 1/3 / 3/5;
+}
+#intro > h1 {
+  text-align: center;
+  font: normal normal bold 46px/60px Assistant;
+  letter-spacing: 0px;
+  color: #0ee1da;
+}
+#intro > p {
+  text-align: center;
+  font: normal normal normal 15px/20px Assistant;
+  letter-spacing: 0px;
+  color: #f9f9f9;
+}
+.container-box {
+  display: grid;
+  grid-template-columns: 222px 222px 222px 222px;
+  grid-template-rows: 203px 203px 203px 203px 203px 203px;
+  grid-gap: 12px;
+}
+#agam {
+  grid-area: 1/1 / 2/2;
+}
+#hodit {
+  grid-area: 1/2 / 2/3;
+}
+#hof {
+  grid-area: 2/1 / 3/2;
+}
+#shor {
+  grid-area: 2/2 / 3/3;
+}
+#arafel {
+  grid-area: 3/1 / 4/2;
+}
+#degel {
+  grid-area: 3/2 / 4/3;
+}
+#midbar {
+  grid-area: 3/3 / 4/4;
+}
+#jungel {
+  grid-area: 3/4 / 4/5;
+}
+#kof {
+  grid-area: 4/3 / 5/4;
+}
+#raj {
+  grid-area: 4/4 / 5/5;
+}
+#sade {
+  grid-area: 5/3 / 6/4;
+}
+#rakevet {
+  grid-area: 5/4 / 6/5;
+}
+#mikdash {
+  grid-area: 6/3 / 7/4;
+}
+#sira {
+  grid-area: 6/4 / 7/5;
+}
+#form-container {
+  grid-area: 4/1 / 7/3;
+}
+#form {
+  background: #8e097c;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 47px;
+  padding-bottom: 26px;
+}
+#form > h1 {
+  text-align: center;
+  font: normal normal bold 27px/35px Assistant;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+#form > p {
+  text-align: center;
+  font: normal normal normal 15px/20px Assistant;
+  letter-spacing: 0px;
+  color: #f9f9f9;
+  margin-bottom: 53px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.form-control > label {
+  text-align: right;
+  font: normal normal bold 12px/18px Heebo;
+  letter-spacing: 0px;
+  color: #0ee1da;
+  margin-bottom: 3px;
+}
+.form-control > input {
+  border: none;
+  border-bottom: 4px solid #0ee1da;
+  width: 375px;
+  height: 45px;
+  background: #e5eeff;
+  margin-bottom: 24px;
+}
+#story {
+  height: 120px;
+}
+.form-control > input[type="submit"] {
+  font: normal normal bold 18px/25px Heebo;
+  letter-spacing: 0.36px;
+  color: #011560;
+  background: #0ee1da;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 0 0 10px 0;
+  }
+  .container-box {
+    justify-content: center;
+    grid-template-columns: repeat(2,159px);
+    /* grid-template-columns: 159px 159px; */
+    grid-template-rows: 340px repeat(4, 146px) 518px repeat(3, 146px);
+    grid-gap: 11px;
+  }
+  .container-box > img {
+    width: 158px;
+    height: 145px;
+  }
+  #intro {
+    grid-area: 1/1 / 2/3;
+  }
+  #intro > h1 {
+    font: normal normal bold 36px/47px Assistant;
+  }
+  #intro > p {
+    font: normal normal normal 20px/26px Assistant;
+  }
+  #agam {
+    grid-area: 2/1 / 3/2;
+  }
+  #hodit {
+    grid-area: 2/2 / 3/3;
+  }
+  #hof {
+    grid-area: 3/1 / 4/2;
+  }
+  #shor {
+    grid-area: 3/2 / 4/3;
+  }
+  #midbar {
+    grid-area: 4/1 / 5/2;
+  }
+  #jungel {
+    grid-area: 4/2 / 5/3;
+  }
+  #arafel {
+    grid-area: 5/1 / 6/2;
+  }
+  #degel {
+    grid-area: 5/2 / 6/3;
+  }
+  #form-container {
+    grid-area: 6/1 / 7/3;
+  }
+  #form {
+    padding-bottom: 20px;
+  }
+  #form > h1 {
+    font: normal normal bold 25px/33px Assistant;
+  }
+  #form > p {
+    font: normal normal normal 15px/19px Assistant;
+    margin-bottom: 15px;
+  }
+  .form-control > label {
+    font: normal normal bold 7px/10px Heebo;
+  }
+  .form-control > input {
+    width: 278px;
+    height: 33px;
+  }
+  #story {
+    height: 96px;
+  }
+  .form-control > input[type="submit"] {
+    font: normal normal bold 12px/16px Heebo;
+  }
+  #kof {
+    grid-area: 7/1 / 8/2;
+  }
+  #raj {
+    grid-area: 7/2 / 8/3;
+  }
+  #sade {
+    grid-area: 8/1 / 9/2;
+  }
+  #rakevet {
+    grid-area: 8/2 / 9/3;
+  }
+  #mikdash {
+    grid-area: 9/1 / 10/2;
+  }
+  #sira {
+    grid-area: 9/2 / 10/3;
+  }
+}

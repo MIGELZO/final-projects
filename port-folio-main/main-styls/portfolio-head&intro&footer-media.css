@@ -1,0 +1,84 @@
+@media screen and (max-width: 1000px) {
+  #intro {
+    margin: 50px auto;
+    height: 9em;
+    font-size: 25px;
+  }
+  #txt-box {
+    top: 3vh;
+    left: 5vw;
+  }
+  #intro h1 {
+    line-height: 3em;
+  }
+  #intro p {
+    margin-left: 2em;
+  }
+  .technologies {
+    height: 75px;
+    gap: 30px;
+  }
+  .technologies div {
+    border-radius: 12px;
+    height: 60px;
+    width: 55px;
+  }
+  .technologies img {
+    height: 50%;
+    width: 50%;
+    margin: 15px;
+  }
+  #div-html:hover {
+    height: 75px;
+    width: 70px;
+  }
+  #div-css:hover {
+    height: 75px;
+    width: 70px;
+  }
+  #icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  #intro {
+    margin: 50px auto;
+    height: 8rem;
+    font-size: 15px;
+  }
+  #txt-box {
+    top: 3vh;
+    left: 5vw;
+  }
+  #intro h1 {
+    line-height: 3em;
+  }
+  #intro p {
+    margin-left: 2em;
+  }
+  .technologies {
+    height: 75px;
+    gap: 30px;
+  }
+  .technologies div {
+    border-radius: 12px;
+    height: 60px;
+    width: 55px;
+  }
+  .technologies img {
+    height: 50%;
+    width: 50%;
+    margin: 15px;
+  }
+  #div-html:hover {
+    height: 75px;
+    width: 70px;
+  }
+  #div-css:hover {
+    height: 75px;
+    width: 70px;
+  }
+  #icons {
+    display: none;
+  }
+}

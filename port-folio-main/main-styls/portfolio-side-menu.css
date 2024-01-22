@@ -1,0 +1,81 @@
+.sid-menu {
+  background: linear-gradient(
+    to right,
+    rgba(15, 13, 22, 255),
+    rgba(26, 21, 39, 255),
+    rgba(15, 13, 22, 255)
+  );
+  height: 100%;
+  width: 180px;
+  box-shadow: 0px -3px 20px black;
+  top: 0%;
+  right: -190px;
+  padding-top: 10px;
+  text-align: center;
+  position: fixed;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+#sid-m-head {
+  text-decoration: none;
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+  height: 50px;
+  font-family: "dosis";
+  font-weight: bold;
+}
+.sid-menu ul {
+  list-style-type: none;
+  line-height: 250%;
+}
+#check {
+  display: none;
+}
+#sid-btn,
+#sid-cancel {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    rgba(51, 32, 95, 255),
+    rgba(36, 30, 76, 255)
+  );
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  font-size: 29px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+#sid-cancel {
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ label #sid-btn {
+  top: 17px;
+  right: 190px;
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ label #sid-cancel {
+  top: 17px;
+  right: 190px;
+  opacity: 1;
+  visibility: visible;
+}
+#check:checked ~ .sid-menu {
+  right: 0;
+}
+@media (width > 850px) {
+  .sid-menu,
+  #sid-btn,
+  #sid-cancel {
+    display: none;
+  }
+}

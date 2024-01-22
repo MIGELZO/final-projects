@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+#intro {
+  height: 475px;
+  background: #0ee1e1;
+  display: flex;
+  align-items: center;
+}
+#box-img {
+  margin-right: 112px;
+  margin-left: 135px;
+}
+#box-img img {
+  height: 200px;
+  width: 243px;
+}
+#txt-box {
+  direction: rtl;
+}
+#txt-box h1 {
+  font: normal normal 900 50px/72px Heebo;
+  letter-spacing: 0px;
+  color: #000000;
+}
+#txt-box p {
+  font: normal normal normal 15px/22px Heebo;
+  letter-spacing: 0px;
+  color: #000000;
+}
+#whats {
+  position: absolute;
+  top: 47px;
+  left: 47px;
+  width: 71px;
+  height: 71px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#whats img {
+  height: 40px;
+  width: 40px;
+}
+#info {
+  display: flex;
+  margin: 40px;
+  justify-content: space-between;
+}
+#product-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  margin: 17px;
+  height: 247px;
+  width: 337px;
+  text-align: center;
+  padding-top: 70px;
+}
+#product-box i {
+  margin-bottom: 30px;
+}
+#product-box h1 {
+  font: normal normal 900 22px/33px Heebo;
+  letter-spacing: 0px;
+  color: #0ee1e1;
+  margin-bottom: 6px;
+}
+#product-box p {
+  font: normal normal normal 11px/16px Heebo;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 0 25px;
+}
+.main {
+  display: flex;
+}
+#img-box {
+  background-color: #0ee1e1;
+  padding: 54px;
+  width: 55%;
+}
+#img-box img {
+  width: 100%;
+  height: 100%;
+}
+#contact-box {
+  width: 45%;
+  background: #f0ffff;
+}
+#contact-box h1 {
+  text-align: center;
+  margin-top: 63px;
+  font: normal normal 900 34px/50px Heebo;
+  letter-spacing: 0px;
+  color: #090909;
+}
+#contact-box p {
+  text-align: center;
+  font: normal normal normal 11px/16px Heebo;
+  letter-spacing: 0px;
+  color: #000000;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  gap: 11px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.form-control label {
+  text-align: right;
+  font: normal normal bold 10px/14px Heebo;
+  letter-spacing: 0px;
+  color: #2c2c2c;
+}
+.form-control input {
+  width: 320px;
+  height: 39px;
+  background: #e5eeff;
+  border: none;
+  border-bottom: 3px solid #0ee1e1;
+}
+#story {
+  height: 109px;
+}
+.form-control input[type="submit"] {
+  font: normal normal bold 20px/28px Heebo;
+  background: #0ee1e1;
+  margin-top: 5px;
+  margin-bottom: 240px;
+}
+.footer {
+  height: 152px;
+  border-bottom: 15px solid #0ee1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;
+}
+#social a {
+  color: black;
+}
+#social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  background: #0ee1e1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  #whats {
+    opacity: 0;
+    visibility: hidden;
+  }
+  #intro {
+    padding: 38px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+  }
+  #box-img {
+    margin-bottom: 44px;
+    margin-left: 350px;
+  }
+  #box-img img {
+    width: 79px;
+    height: 65px;
+  }
+  #txt-box h1 {
+    font: normal normal 900 33px/49px Heebo;
+  }
+  #txt-box p {
+    font: normal normal normal 15px/22px Heebo;
+  }
+  #info {
+    flex-direction: column;
+    align-items: center;
+    margin: 49px 0;
+    gap: 10px;
+  }
+  #product-box {
+    flex-direction: column;
+    margin: 0px;
+    height: 247px;
+    width: 337px;
+    padding-top: 80px;
+  }
+  #product-box h1 {
+    font: normal normal 900 22px/32px Heebo;
+  }
+  #product-box p {
+    font: normal normal normal 15px/22px Heebo;
+  }
+  .main {
+    flex-direction: column;
+  }
+  #img-box {
+    padding: 31px;
+    width: 100%;
+    height: 312px;
+    order: 1;
+  }
+  #img-box img {
+    width: 313px;
+    height: 242px;
+  }
+  #contact-box {
+    width: 100%;
+  }
+  #contact-box h1 {
+    text-align: right;
+    font: normal normal 900 32px/47px Heebo;
+    margin-right: 30px;
+  }
+  #contact-box p {
+    text-align: right;
+    font: normal normal normal 15px/22px Heebo;
+    margin-right: 30px;
+  }
+  .form-control label {
+    font: normal normal bold 12px/18px Heebo;
+  }
+  .form-control input {
+    width: 307px;
+    height: 37px;
+  }
+  #story {
+    height: 105px;
+  }
+  .form-control input[type="submit"] {
+    margin-bottom: 84px;
+  }
+  .footer {
+    height: 127px;
+    border-bottom: 10px solid #0ee1e1;
+    gap: 17px;
+  }
+  #social {
+    width: 45px;
+    height: 46px;
+  }
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: unset;
+  }
+}

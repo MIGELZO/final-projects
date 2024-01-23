@@ -50,6 +50,7 @@
   flex-wrap: wrap;
   display: flex;
   margin: auto;
+  margin-bottom: 10px;
 }
 .card {
   height: 300px;

@@ -45,8 +45,7 @@
   color: #fff;
 }
 .container-gallery {
-  
-  padding: 30px 0px 15px 0px; /****/
+  padding: 30px 0px 15px 0px;
   width: 50%;
   flex-wrap: wrap;
   display: flex;
@@ -95,11 +94,11 @@
   height: 100%;
   width: 80%;
   padding-bottom: 15px;
-  border: 1px solid rgb(23, 14, 32);
+  border: 1px solid none;
+  box-shadow: 0 0 20px 1px rgba(86, 237, 233, 211);
   border-radius: 25px;
   display: flex;
   gap: 300px;
-  background-color: rgb(23, 14, 32);
   font-family: dosis;
   align-items: center;
 }
@@ -112,6 +111,7 @@
   left: 130px;
   height: 350px;
   transition: all 0.5s ease;
+  height: 20rem;
 }
 #contact img:hover {
   rotate: -40deg;
@@ -136,8 +136,9 @@
   height: 25px;
   width: 300px;
   border: none;
-  border-bottom: 5px solid rgba(86, 237, 233, 211);
+  border-bottom: 5px solid #017d7a;
   border-radius: 5px;
+  background-color: #1a1527;
 }
 #message-content {
   height: 120px;
@@ -146,11 +147,13 @@
   height: 35px;
   width: 100px;
   border: none;
-  border-bottom: 5px solid rgba(86, 237, 233, 211);
+  border-bottom: 5px solid #017d7a;
   margin-top: 10px;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s ease;
+  background-color: #1a1527;
+  color: #fff;
 }
 #contact-btn-box {
   width: 100%;

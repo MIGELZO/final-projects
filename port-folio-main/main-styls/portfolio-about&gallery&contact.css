@@ -80,6 +80,7 @@
 }
 .project-btn a {
   font-size: 15px;
+  font-family: dosis;
   border: solid 2px black;
   border-radius: 25px;
   padding: 0.5em;
@@ -140,6 +141,8 @@
   border-bottom: 5px solid #017d7a;
   border-radius: 5px;
   background-color: #1a1527;
+  color: #9e9e9e;
+  padding-left: 2px;
 }
 #message-content {
   height: 120px;

@@ -14,6 +14,9 @@
   #cv-btn {
     font-size: 12px;
   }
+  #cv-btn:hover {
+    font-size: 12px;
+  }
   #module-line {
     margin-top: 2rem;
     margin-bottom: 1rem;

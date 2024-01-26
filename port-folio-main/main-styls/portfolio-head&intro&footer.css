@@ -129,10 +129,7 @@ body {
   margin: 30px;
   transition: all 0.5s ease;
 }
-#div-html:hover {
-  height: 150px;
-  width: 140px;
-}
+#div-html:hover,
 #div-css:hover {
   height: 150px;
   width: 140px;

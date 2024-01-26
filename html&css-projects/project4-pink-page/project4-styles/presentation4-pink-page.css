@@ -2,26 +2,34 @@
   margin: 70px auto 60px auto;
 }
 #intro p {
-  margin-bottom: -2%;
+  margin-bottom: 8%;
 }
 #btn-box {
+  margin: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: 1em;
-  gap: 1em;
+  width: 100%;
+  height: 20%;
+}
+#div-live,
+#div-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 15%;
 }
 #btn-box a {
   font-size: 25px;
   font-family: dosis;
   border: solid 2px black;
   border-radius: 25px;
-  padding: 0.5em;
-  margin-bottom: 2ch;
+  padding: 5%;
   background-color: rgba(15, 13, 22, 255);
   color: #fff;
   transition: all 0.5s ease;
 }
-#btn-box a:hover {
+#div-download a:hover,
+#div-live a:hover {
   font-size: 22px;
 }
 #project-img {
@@ -43,8 +51,10 @@
   #intro {
     font-size: 30px;
   }
-  #btn-box a {
-    font-size: 18px;
+  #btn-box a,
+  #div-download a:hover,
+  #div-live a:hover {
+    font-size: 15px;
   }
   #project-img img {
     height: 20rem;
@@ -62,11 +72,13 @@
   #txt-box {
     top: 0vh;
   }
-  #btn-box a {
-    font-size: 13px;
+  #btn-box {
+    gap: 2%;
   }
-  #btn-box a:hover {
-    font-size: 12px;
+  #btn-box a,
+  #div-download a:hover,
+  #div-live a:hover {
+    font-size: 10px;
   }
   .technologies {
     margin: 5rem 0;

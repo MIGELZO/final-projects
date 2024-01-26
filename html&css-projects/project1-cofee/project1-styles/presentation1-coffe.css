@@ -11,6 +11,7 @@
 }
 #btn-box a {
   font-size: 25px;
+  font-family: dosis;
   border: solid 2px black;
   border-radius: 25px;
   padding: 0.5em;
@@ -54,13 +55,16 @@
 @media screen and (max-width: 700px) {
   #intro {
     height: 10rem;
-    font-size: 20px;
+    font-size: 22px;
   }
   #txt-box {
-    top: 1vh;
+    top: 0vh;
+  }
+  #btn-box {
+    padding-bottom: 2em;
   }
   #btn-box a {
-    font-size:13px;
+    font-size: 13px;
   }
   #btn-box a:hover {
     font-size: 13px;

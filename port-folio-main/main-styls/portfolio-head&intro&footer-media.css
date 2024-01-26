@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1060px) {
   .menu-box {
     display: none;
   }
@@ -40,7 +40,14 @@
     width: 70px;
   }
   #icons {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 50ch;
+    justify-content: space-around;
+  }
+  #copyright p {
+    padding: 0 15px 10px 15px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -82,7 +89,7 @@
     width: 70px;
   }
   #icons {
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     margin: auto;
     height: 50ch;

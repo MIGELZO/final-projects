@@ -61,4 +61,7 @@
   #project-img img {
     height: 10rem;
   }
+  #icons {
+    display: none;
+  }
 }

@@ -1,9 +1,9 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1060px) {
   #about {
     height: 75rem;
   }
   #about h3 {
-    max-width: 30ch;
+    width: 32ch;
     margin: auto;
     margin-bottom: 1em;
   }

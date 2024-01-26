@@ -72,7 +72,7 @@
 #check:checked ~ .sid-menu {
   right: 0;
 }
-@media (width > 850px) {
+@media (width > 1060px) {
   .sid-menu,
   #sid-btn,
   #sid-cancel {

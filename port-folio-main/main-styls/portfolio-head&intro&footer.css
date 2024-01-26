@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   text-decoration: none;
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+  scroll-padding-top: 120px;
 }
 body {
   background: url(../main-assets/main-background.jpg);

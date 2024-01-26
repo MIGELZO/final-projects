@@ -1,11 +1,12 @@
 #intro {
   margin: 70px auto 60px auto;
 }
+#intro p {
+  margin-bottom: 8%;
+}
 #btn-box {
-  height: 60%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   padding-bottom: 1em;
   gap: 1em;
 }
@@ -42,9 +43,6 @@
   #intro {
     font-size: 30px;
   }
-  #btn-box {
-    padding-bottom: 1.5em;
-  }
   #btn-box a {
     font-size: 18px;
   }
@@ -63,9 +61,6 @@
   }
   #txt-box {
     top: 0vh;
-  }
-  #btn-box {
-    padding-bottom: 2em;
   }
   #btn-box a {
     font-size: 13px;

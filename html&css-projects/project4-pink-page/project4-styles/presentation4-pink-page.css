@@ -1,16 +1,18 @@
 #intro {
-  margin: 80px auto 60px auto;
+  margin: 70px auto 60px auto;
+}
+#intro p {
+  margin-bottom: -2%;
 }
 #btn-box {
-  height: 50%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   padding-bottom: 1em;
   gap: 1em;
 }
 #btn-box a {
   font-size: 25px;
+  font-family: dosis;
   border: solid 2px black;
   border-radius: 25px;
   padding: 0.5em;
@@ -34,9 +36,12 @@
   border-radius: 25px;
   height: 30rem;
 }
-@media screen and (max-width: 1000px) {
-  #btn-box {
-    padding-bottom: 0.5em;
+#icons {
+  display: none;
+}
+@media screen and (max-width: 1060px) {
+  #intro {
+    font-size: 30px;
   }
   #btn-box a {
     font-size: 18px;
@@ -45,18 +50,29 @@
     height: 20rem;
   }
 }
-@media screen and (max-width: 500px) {
-  #btn-box {
-    padding-bottom: 1em;
+@media screen and (max-width: 700px) {
+  #intro {
+    margin-top: 5rem;
+    height: 10rem;
+    font-size: 22px;
+  }
+  #intro h1 {
+    line-height: 2em;
+  }
+  #txt-box {
+    top: 0vh;
   }
   #btn-box a {
-    font-size: 7px;
+    font-size: 13px;
   }
   #btn-box a:hover {
-    font-size: 7px;
+    font-size: 12px;
+  }
+  .technologies {
+    margin: 5rem 0;
   }
   #project-img {
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
   #project-img img {
     height: 10rem;

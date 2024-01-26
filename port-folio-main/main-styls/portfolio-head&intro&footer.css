@@ -32,7 +32,7 @@ body {
   justify-content: space-between;
 }
 #m-logo {
-  height: 80px;
+  height: 70px;
   border-radius: 10px;
   margin: 5px;
   position: relative;
@@ -173,9 +173,4 @@ footer {
 }
 #copyright p {
   font-size: 15px;
-}
-@media (width < 850px) {
-  .menu-box {
-    display: none;
-  }
 }

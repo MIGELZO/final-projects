@@ -1,4 +1,7 @@
 @media screen and (max-width: 1000px) {
+  .menu-box {
+    display: none;
+  }
   #intro {
     margin: 50px auto;
     height: 9em;
@@ -80,5 +83,12 @@
   }
   #icons {
     display: none;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 50ch;
+    justify-content: space-around;
+  }
+  #copyright p {
+    padding: 0 15px 10px 15px;
   }
 }

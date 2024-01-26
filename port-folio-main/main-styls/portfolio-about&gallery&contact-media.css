@@ -1,3 +1,8 @@
+@media screen and (max-width: 1300px) {
+  #contact img {
+    height: 170px;
+  }
+}
 @media screen and (max-width: 1060px) {
   #about {
     height: 75rem;

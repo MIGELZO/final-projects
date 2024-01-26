@@ -155,10 +155,11 @@ img {
   }
   #for-mobile {
     position: absolute;
+    top: 0;
     z-index: -1;
     background-color: #020253;
     width: 100vw;
-    height: 38vh;
+    height: 340px;
   }
   #intro {
     grid-area: 1/1 / 2/3;

@@ -7,13 +7,11 @@ body {
   background: linear-gradient(to top, #2dff8c, #281eff);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
 .container {
-  width: 825px;
-  height: 306px;
-  position: relative;
-  left: 308px;
-  top: 200px;
+  padding-top: 25vh;
   text-align: center;
 }
 #txt h1 {
@@ -71,12 +69,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .container {
-    width: 327px;
-    height: 466px;
-    left: 19px;
-    top: 80px;
-  }
   #txt h1 {
     font: normal normal normal 60px/86px Satisfy;
     margin-bottom: 40px;
@@ -86,11 +78,13 @@ body {
   }
   #txt p {
     font: normal normal normal 16px/20px Varela Round;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
+    padding: 0 10vw;
   }
   #form {
     flex-direction: column;
-    padding-right: 12px;
+    padding-right: 14vw;
+    padding-left: 14vw;
     gap: 16px;
   }
   #contact {

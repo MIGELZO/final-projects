@@ -30,6 +30,9 @@
     line-height: 2rem;
     font-size: 12px;
   }
+  #module-line-box h3 {
+    width: 38ch;
+  }
   .container-gallery {
     width: 60%;
     padding-top: 0.5em;

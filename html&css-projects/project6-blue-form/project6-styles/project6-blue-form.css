@@ -7,13 +7,12 @@
   background: url(../project6-assets/main-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 571px;
+  padding-top: 30vh;
+  padding-bottom: 37vh;
 }
 #txt {
   direction: rtl;
-  position: relative;
   text-align: center;
-  top: 212px;
 }
 #txt h1 {
   font: normal normal bold 65px/85px Assistant;
@@ -30,7 +29,7 @@
   display: flex;
   direction: rtl;
   justify-content: center;
-  margin-top: 63px;
+  padding-top: 2%;
   gap: 28px;
 }
 #contact {
@@ -63,14 +62,13 @@
 }
 @media screen and (max-width: 600px) {
   .top-container {
+    padding-top: 15vh;
+    padding-bottom: 20vh;
     background-position: top;
-    height: 300px;
-  }
-  #txt {
-    top: 50px;
+    height: 40vh;
   }
   #txt h1 {
-    font: normal normal bold 30px/113px Assistant;
+    font: normal normal bold 30px/55px Assistant;
     margin-bottom: 0px;
   }
   #txt p {
@@ -78,8 +76,8 @@
   }
   .form-container {
     flex-direction: column;
-    margin-top: 110px;
-    margin-right: 42px;
+    padding-top: 90px;
+    margin-right: 15vw;
     gap: 20px;
   }
   #contact label {

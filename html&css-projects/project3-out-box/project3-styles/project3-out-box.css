@@ -115,7 +115,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
-  gap: 11px;
+  gap: 21px;
 }
 .form-control {
   display: flex;
